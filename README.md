@@ -1,4 +1,3 @@
-
 <project name="mstest" basedir=".">
 <property file="${basedir}/build.properties"/>
 <property name="dist" value="dist"/>

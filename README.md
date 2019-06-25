@@ -1,4 +1,4 @@
-<project name="microservice1" basedir=".">
+<project name="mstest" basedir=".">
 <property file="${basedir}/build.properties"/>
 <property name="dist" value="dist"/>
 <property name="build" value="build"/>

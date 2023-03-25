@@ -22,7 +22,7 @@
 <target name="clean" description="Cleans the build location">
 <delete dir="${build}"/>
 </target>
-<target name="create-zip" depends="clean,init" description="Generates zip file">
+<target name="create-zip2" depends="clean,init" description="Generates zip file">
 <zip destfile="${dist-location}/deployables.zip">
 <zipfileset dir="${basedir}"/>
 <fileset dir="${basedir}" includes="*.txt"/>
